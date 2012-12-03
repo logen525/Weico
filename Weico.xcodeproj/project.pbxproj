@@ -1,0 +1,261 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC2108DB166C4EC100565AA8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2108DA166C4EC100565AA8 /* UIKit.framework */; };
+		BC2108DD166C4EC100565AA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2108DC166C4EC100565AA8 /* Foundation.framework */; };
+		BC2108DF166C4EC100565AA8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2108DE166C4EC100565AA8 /* CoreGraphics.framework */; };
+		BC2108E5166C4EC100565AA8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC2108E3166C4EC100565AA8 /* InfoPlist.strings */; };
+		BC2108E7166C4EC100565AA8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2108E6166C4EC100565AA8 /* main.m */; };
+		BC2108EB166C4EC100565AA8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2108EA166C4EC100565AA8 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BC2108D6166C4EC100565AA8 /* Weico.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weico.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC2108DA166C4EC100565AA8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BC2108DC166C4EC100565AA8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BC2108DE166C4EC100565AA8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BC2108E2166C4EC100565AA8 /* Weico-Info.plist */ = {isa = PBXFileReference; path = "Weico-Info.plist"; sourceTree = "<group>"; };
+		BC2108E4166C4EC100565AA8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC2108E6166C4EC100565AA8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC2108E8166C4EC100565AA8 /* Weico-Prefix.pch */ = {isa = PBXFileReference; path = "Weico-Prefix.pch"; sourceTree = "<group>"; };
+		BC2108E9166C4EC100565AA8 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		BC2108EA166C4EC100565AA8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC2108D3166C4EC100565AA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC2108DB166C4EC100565AA8 /* UIKit.framework in Frameworks */,
+				BC2108DD166C4EC100565AA8 /* Foundation.framework in Frameworks */,
+				BC2108DF166C4EC100565AA8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC2108CB166C4EC100565AA8 = {
+			isa = PBXGroup;
+			children = (
+				BC2108E0166C4EC100565AA8 /* Weico */,
+				BC2108D9166C4EC100565AA8 /* Frameworks */,
+				BC2108D7166C4EC100565AA8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC2108D7166C4EC100565AA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC2108D6166C4EC100565AA8 /* Weico.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC2108D9166C4EC100565AA8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC2108DA166C4EC100565AA8 /* UIKit.framework */,
+				BC2108DC166C4EC100565AA8 /* Foundation.framework */,
+				BC2108DE166C4EC100565AA8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC2108E0166C4EC100565AA8 /* Weico */ = {
+			isa = PBXGroup;
+			children = (
+				BC2108E9166C4EC100565AA8 /* AppDelegate.h */,
+				BC2108EA166C4EC100565AA8 /* AppDelegate.m */,
+				BC2108E1166C4EC100565AA8 /* Supporting Files */,
+			);
+			path = Weico;
+			sourceTree = "<group>";
+		};
+		BC2108E1166C4EC100565AA8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC2108E2166C4EC100565AA8 /* Weico-Info.plist */,
+				BC2108E3166C4EC100565AA8 /* InfoPlist.strings */,
+				BC2108E6166C4EC100565AA8 /* main.m */,
+				BC2108E8166C4EC100565AA8 /* Weico-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC2108D5166C4EC100565AA8 /* Weico */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC2108EE166C4EC100565AA8 /* Build configuration list for PBXNativeTarget "Weico" */;
+			buildPhases = (
+				BC2108D2166C4EC100565AA8 /* Sources */,
+				BC2108D3166C4EC100565AA8 /* Frameworks */,
+				BC2108D4166C4EC100565AA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Weico;
+			productName = Weico;
+			productReference = BC2108D6166C4EC100565AA8 /* Weico.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC2108CD166C4EC100565AA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = BC2108D0166C4EC100565AA8 /* Build configuration list for PBXProject "Weico" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BC2108CB166C4EC100565AA8;
+			productRefGroup = BC2108D7166C4EC100565AA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC2108D5166C4EC100565AA8 /* Weico */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC2108D4166C4EC100565AA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC2108E5166C4EC100565AA8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC2108D2166C4EC100565AA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC2108E7166C4EC100565AA8 /* main.m in Sources */,
+				BC2108EB166C4EC100565AA8 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BC2108E3166C4EC100565AA8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC2108E4166C4EC100565AA8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC2108EC166C4EC100565AA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BC2108ED166C4EC100565AA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC2108EF166C4EC100565AA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Weico/Weico-Prefix.pch";
+				INFOPLIST_FILE = "Weico/Weico-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BC2108F0166C4EC100565AA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Weico/Weico-Prefix.pch";
+				INFOPLIST_FILE = "Weico/Weico-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC2108D0166C4EC100565AA8 /* Build configuration list for PBXProject "Weico" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC2108EC166C4EC100565AA8 /* Debug */,
+				BC2108ED166C4EC100565AA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC2108EE166C4EC100565AA8 /* Build configuration list for PBXNativeTarget "Weico" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC2108EF166C4EC100565AA8 /* Debug */,
+				BC2108F0166C4EC100565AA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC2108CD166C4EC100565AA8 /* Project object */;
+}
