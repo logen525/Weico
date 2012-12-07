@@ -72,9 +72,10 @@
     
     _revealSlideViewController.delegate = self;
     
+    [self hiddenUI];
     [wnd.rootViewController presentModalViewController:_revealSlideViewController animated:YES];
     
-//    [wnd addSubview:_revealSlideViewController.view];
+
 //    wnd.rootViewController = _revealSlideViewController;
     
 }
