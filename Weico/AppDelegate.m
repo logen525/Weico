@@ -11,10 +11,12 @@
 @implementation AppDelegate
 
 @synthesize window = _window;
+@synthesize revealSlideViewController = _revealSlideViewController;
 
 - (void)dealloc
 {
     [_window release];
+    [_revealSlideViewController release];
     [super dealloc];
 }
 
@@ -23,6 +25,20 @@
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    RootViewController * rvc = [[[RootViewController alloc] initWithNibName:@"RootViewController" bundle:nil] autorelease];
+    
+    UINavigationController * nav = [[[UINavigationController alloc] initWithRootViewController:rvc] autorelease];
+    
+    _revealSlideViewController = [[PPRevealSideViewController alloc] initWithRootViewController:nav];
+    
+    _revealSlideViewController.delegate = self;
+    
+    LoginViewController * loginVC = [[[LoginViewController alloc] init] autorelease];
+    
+//    self.window.rootViewController = _revealSlideViewController;
+    self.window.rootViewController = loginVC;
+    
     [self.window makeKeyAndVisible];
     return YES;
 }
